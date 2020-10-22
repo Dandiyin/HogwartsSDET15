@@ -1,0 +1,122 @@
+{
+  "uid": "d3b87fe6ef40ff1b",
+  "name": "test_div_zero[0.1-0]",
+  "fullName": "test_calc.TestCalc#test_div_zero",
+  "historyId": "0218766515912fc458793f304dbabfe0",
+  "time": {
+    "start": 1603362317682,
+    "stop": 1603362317682,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_cacl",
+      "time": {
+        "start": 1603362317581,
+        "stop": 1603362317581,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "get_cacl::0",
+      "time": {
+        "start": 1603362317800,
+        "stop": 1603362317800,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "计算器测试用例"
+    },
+    {
+      "name": "story",
+      "value": "除法--0做除数"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "bogon"
+    },
+    {
+      "name": "thread",
+      "value": "3111-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.1"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=2)"
+    ]
+  },
+  "source": "d3b87fe6ef40ff1b.json",
+  "parameterValues": [
+    "0.1",
+    "0"
+  ]
+}
