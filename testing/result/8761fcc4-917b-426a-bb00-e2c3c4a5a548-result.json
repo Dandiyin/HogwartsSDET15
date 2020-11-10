@@ -1,0 +1,66 @@
+{
+  "name": "test_sub[1-0-1]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    },
+    {
+      "name": "expect",
+      "value": "1"
+    }
+  ],
+  "start": 1603362317733,
+  "stop": 1603362317733,
+  "uuid": "1760c7b7-716f-4478-826e-d0d15d0adb1d",
+  "historyId": "ce568068f8e72357c33a1b62b0ac3371",
+  "testCaseId": "3b960671b7ce69bb509e37e84b3024bc",
+  "fullName": "test_calc.TestCalc#test_sub",
+  "labels": [
+    {
+      "name": "story",
+      "value": "减法"
+    },
+    {
+      "name": "feature",
+      "value": "计算器测试用例"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "bogon"
+    },
+    {
+      "name": "thread",
+      "value": "3111-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

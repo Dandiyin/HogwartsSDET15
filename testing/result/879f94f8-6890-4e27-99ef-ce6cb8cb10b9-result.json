@@ -1,0 +1,62 @@
+{
+  "name": "test_div_zero[0.1-0]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.1"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    }
+  ],
+  "start": 1603362317682,
+  "stop": 1603362317682,
+  "uuid": "fa602615-c82d-4704-b8c8-1d99d70db406",
+  "historyId": "0218766515912fc458793f304dbabfe0",
+  "testCaseId": "6aec7c3de25fe750e3b07c1b17e5443e",
+  "fullName": "test_calc.TestCalc#test_div_zero",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "计算器测试用例"
+    },
+    {
+      "name": "story",
+      "value": "除法--0做除数"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "bogon"
+    },
+    {
+      "name": "thread",
+      "value": "3111-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

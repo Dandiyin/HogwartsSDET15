@@ -1,0 +1,44 @@
+{
+  "name": "test_add_steps",
+  "status": "passed",
+  "start": 1603362317798,
+  "stop": 1603362317799,
+  "uuid": "33107fee-58b2-433a-a91f-7adad14a2ad3",
+  "historyId": "0b71997713ea4e385b0bd7657de1625b",
+  "testCaseId": "17dd12c4a68841cc91ccab336f0f8bb9",
+  "fullName": "test_calc.TestCalc#test_add_steps",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "计算器测试用例"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "bogon"
+    },
+    {
+      "name": "thread",
+      "value": "3111-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 import yaml
 from appium import webdriver
 
-from app.paga.base_page import Base_Page
+from app.paga.base_page import BasePage
 from app.paga.main_page import MainPage
 
 with open('./config/caps.yml') as f:
@@ -12,9 +12,9 @@ with open('./config/caps.yml') as f:
     port = myconfig['server']['port']
 
 
-class App(Base_Page):
+class App(BasePage):
     def start(self):
-        if self.driver == None:
+        if self.driver is None:
 
             # 启动完停留在当前页面
             # 定义了一个字典

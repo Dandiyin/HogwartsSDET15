@@ -1,0 +1,4 @@
+click_more:
+  - by: id
+    locator: 'com.tencent.wework:id/hxm'
+    action: click

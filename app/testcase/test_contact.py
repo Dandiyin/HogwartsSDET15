@@ -20,18 +20,18 @@ class TestContact:
     def teardown(self):
         self.app.stop()
 
-    def test_addcontact(self):
-        name = "hogwarts_003"
-        gender = "男"
-        phonenum = "13500000003"
+    def test_add_contact(self):
+        # name = "hogwarts_003"
+        # gender = "男"
+        # phonenum = "13500000003"
         result = self.main.goto_address() \
             .click_addmember() \
             .add_member_menual() \
-            .add_contact(name, gender, phonenum).get_toast()
+            .add_contact().get_toast()
         assert '添加成功' == result
 
-    def test_deletecontact(self):
-        name = 'hogwarts_003'
+    def test_delete_contact(self):
+        name = 'hogwarts_004'
         result = self.main.goto_address().select_member(
             name).click_more().click_editmember().click_delete().search_member(name)
-        assert '网络查找手机/邮箱：hogwarts_003' == result
+        assert '网络查找手机/邮箱：hogwarts_004' == result
