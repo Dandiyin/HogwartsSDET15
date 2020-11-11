@@ -1,0 +1,19 @@
+click_addmember:
+  - by: xpath
+    locator: '//*[@text="通讯录"]'
+    action: click
+
+select_member:
+  - by: xpath
+    locator: '//*[@text="通讯录"]'
+    action: click
+
+search_member:
+  - by: id
+    locator: 'com.tencent.wework:id/hxw'
+    action: click
+
+  - by: xpath
+    locator: '//*[@text="搜索"]'
+    action: send_keys
+    content: 'hogwarts_004'
